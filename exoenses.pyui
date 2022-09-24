@@ -1,0 +1,272 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 130}, {360, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "continuous" : true,
+          "uuid" : "29A1DC28-448D-4100-99AE-8269737FB89C",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(1.000000,0.507246,0.333333,1.000000)",
+          "frame" : "{{20, 103}, {200, 34}}",
+          "tint_color" : "RGBA(1.000000,0.876812,0.833333,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(1.000000,0.944444,0.944444,1.000000)",
+          "custom_attributes" : "{'amount':0}",
+          "value" : 0.5,
+          "action" : "slider_action",
+          "class" : "Slider",
+          "name" : "slider2",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 172}, {91, 43}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "63E3368C-FCDA-4E25-841C-9E2F3A5EB962",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.722222,0.746377,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "border_width" : 0,
+          "alignment" : "center",
+          "text_color" : "RGBA(1.000000,0.944444,0.944444,1.000000)",
+          "text" : "🧋 Drinks",
+          "alpha" : 1,
+          "font_name" : "AlNile-Bold",
+          "class" : "Label",
+          "name" : "label11",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 242}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "switch_action",
+          "alpha" : 1,
+          "frame" : "{{120, 104}, {51, 31}}",
+          "custom_attributes" : "{'text':['Drinks','Stocks']}",
+          "class" : "Switch",
+          "value" : false,
+          "uuid" : "2B61D307-5144-4B8C-BF90-BD5306FAA393",
+          "name" : "switch1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{57, 398}, {256, 48}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1277E1FB-9FFA-4C17-8A39-95E8C462BF1E",
+          "flex" : "B",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.152941,0.419608,0.917647,1.000000)",
+          "frame" : "{{115, 150}, {80, 32}}",
+          "border_color" : "RGBA(0.343888,0.773750,0.717681,1.000000)",
+          "border_width" : 0,
+          "title" : "🏧Submit",
+          "action" : "btn_action",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 19
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{163.78256734212241, 242}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "switch_action",
+          "frame" : "{{120, 104}, {51, 31}}",
+          "custom_attributes" : "{'text':['Meals','Funds']}",
+          "class" : "Switch",
+          "value" : false,
+          "uuid" : "2B61D307-5144-4B8C-BF90-BD5306FAA393",
+          "name" : "switch2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{289, 242}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "",
+          "frame" : "{{120, 104}, {51, 31}}",
+          "custom_attributes" : "{'text':'Others'}",
+          "class" : "Switch",
+          "value" : false,
+          "uuid" : "2B61D307-5144-4B8C-BF90-BD5306FAA393",
+          "name" : "switch3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 59}, {252, 52}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "87CB5C5C-2965-4D56-975E-C53AE83F1908",
+          "flex" : "",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,0.963768,0.833333,1.000000)",
+          "frame" : "{{80, 150}, {150, 32}}",
+          "tint_color" : "RGBA(0.983092,1.000000,0.611111,1.000000)",
+          "border_width" : 0,
+          "alignment" : "center",
+          "text" : "Label",
+          "text_color" : "RGBA(1.000000,0.388889,0.388889,1.000000)",
+          "font_name" : "BradleyHandITCTT-Bold",
+          "class" : "Label",
+          "name" : "label2",
+          "font_size" : 30
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{144, 172}, {96, 43}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "63E3368C-FCDA-4E25-841C-9E2F3A5EB962",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(1.000000,0.840580,0.666667,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(0.985507,1.000000,0.666667,1.000000)",
+          "border_width" : 0,
+          "border_color" : "RGBA(1.000000,0.945098,0.945098,1.000000)",
+          "alignment" : "center",
+          "text_color" : "RGBA(1.000000,0.555556,0.671498,1.000000)",
+          "text" : "🍟Meals",
+          "font_name" : "AlNile-Bold",
+          "class" : "Label",
+          "name" : "label12",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{270, 172}, {100, 43}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "63E3368C-FCDA-4E25-841C-9E2F3A5EB962",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.444444,0.927536,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(0.985507,1.000000,0.666667,1.000000)",
+          "border_width" : 5,
+          "border_color" : "RGBA(1.000000,0.945098,0.945098,1.000000)",
+          "alignment" : "center",
+          "text_color" : "RGBA(0.777778,0.971014,1.000000,1.000000)",
+          "text" : "Scan？",
+          "font_name" : "Arial-BoldMT",
+          "class" : "Label",
+          "name" : "label13",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{270, 59}, {89, 49}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 30,
+          "text_color" : "RGBA(0.841208,0.841208,0.841208,1.000000)",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "D5DF1AFA-9D68-434F-87A8-97352F4809CD",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Label",
+          "background_color" : "RGBA(1.000000,0.987923,0.944444,1.000000)",
+          "name" : "label3",
+          "font_name" : "Futura-CondensedMedium"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 313}, {120, 55}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "uuid" : "5E1C51A9-3452-4ABF-91D1-72561F20A730",
+          "corner_radius" : 20,
+          "frame" : "{{140, 226}, {120, 29}}",
+          "segments" : "Alipay|Wechat",
+          "tint_color" : "RGBA(0.975845,1.000000,0.444444,1.000000)",
+          "border_color" : "RGBA(0.222222,0.695652,1.000000,1.000000)",
+          "border_width" : 1,
+          "action" : "seg1_action",
+          "alpha" : 1,
+          "class" : "SegmentedControl",
+          "name" : "segmentedcontrol1",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 7}, {278, 44}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : " seg_action",
+          "flex" : "LR",
+          "segments" : "Expenses| Revnue",
+          "frame" : "{{140, 226}, {120, 29}}",
+          "uuid" : "4B078B70-E123-43A0-B85D-6C716F30284B",
+          "class" : "SegmentedControl",
+          "custom_attributes" : "{'symbol':-1}",
+          "name" : "segmentedcontrol2"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {400, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "custom_class" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,0.958937,0.944444,1.000000)",
+      "name" : ""
+    },
+    "selected" : false
+  }
+]
